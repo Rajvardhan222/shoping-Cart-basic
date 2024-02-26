@@ -44,5 +44,5 @@ let productSlice = createSlice({
     }
 })
 
-export const {addProduct} = productList.actions;
+export const {addProduct} = productSlice.actions;
 export default productSlice.reducer
